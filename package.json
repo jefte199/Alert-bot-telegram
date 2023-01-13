@@ -1,0 +1,22 @@
+{
+  "name": "alert_oferta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "dev:test": "nodemon src/teste.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "telegraf": "3.17.3"
+  }
+}
